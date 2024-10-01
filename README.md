@@ -6,7 +6,7 @@ Requirements:
 - NumPy
 - SKimage
 - OpenCV2
-
+- matplotlib
 
 Works by extracting minutiae points using harris corner detection.
 
@@ -34,3 +34,4 @@ NOTE: the fingerprints must be in the `/database` folder
 ## Credits
 
 Special thanks to https://github.com/Utkarsh-Deshmukh/Fingerprint-Enhancement-Python for providing a library used to enhance the fingerprint picture.
+Special thanks to https://github.com/robertvazan/fingerprint-datasets?tab=readme-ov-file#fvc2000-db1-b for providing a set of fingerprint samples for testing.
